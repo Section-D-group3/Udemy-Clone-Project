@@ -2,7 +2,7 @@
 class Home{
 
   public function index($id = ''){
-    echo "Home page view $id";
+    echo "Home Page view $id";
   }
   public function edit(){
     echo "Home Editting view";
