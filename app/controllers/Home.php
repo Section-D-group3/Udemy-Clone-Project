@@ -1,16 +1,10 @@
 <?php
-class Home{
+class Home extends Controller{
 
   public function index($id = ''){
-    echo "Home Page view $id";
+    $data['title'] = 'homepage1';
+    $data['author'] = 'nasifay';
+    $this->view('home', $data);
   }
-  public function edit(){
-    echo "Home Editting view";
-  }
-  public function delete($id = ''){
-    echo "Home Deleting $id";
-  }
-  public function setting(){
-    echo "Home Setting view";
-  }
+
 }
