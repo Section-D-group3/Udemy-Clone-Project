@@ -1,2 +1,2 @@
 <h1>Home Page</h1>
-<h5><?=$author?></h5>
+<h5><?=$title?></h5>
