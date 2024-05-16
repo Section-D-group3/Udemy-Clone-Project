@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 session_start();
 if (!isset($_SESSION["user"])) {
    header("Location: login.php");
@@ -21,3 +22,6 @@ if (!isset($_SESSION["user"])) {
     </div>
 </body>
 </html>
+=======
+echo "<h1>Page Not Found </h1>";
+>>>>>>> bd4f5b556d17852c9476b0f25f8cbbfa3aee45e6
